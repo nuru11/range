@@ -1,0 +1,49 @@
+*{
+    
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ddd;
+    width: 800px;
+    height: 500px;
+
+}
+
+.box {
+    position:relative;
+    background-color: black;
+    color: blue;
+    width: 300px;
+    height: 200px;
+    border: 2px solid red;
+    left: 500px;
+    top: 150px;
+}
+
+.newinput{
+    background-color: blueviolet;
+    width:200px;
+}
+
+.discont {
+    position: absolute;
+    margin-left:160px;
+    bottom: 50%;
+}
+
+.text {
+    position:absolute;
+    left: 450px;
+}
+
+.h2 {
+    position:absolute;
+    left:40px;
+    margin-bottom: 50px;
+}
+
+.h1 {
+    position: relative;
+    top: 30px;
+}
